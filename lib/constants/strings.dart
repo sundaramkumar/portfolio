@@ -23,9 +23,13 @@ class Strings {
       '\u00a9 ${DateTime.now().year} KumarSundaram.com';
 
   static const String phone = 'Phone: ';
-  static const String conactPhone = '+91-90030 13383';
+  static const String contactPhone = '+91-xxxxx xxxxx';
   static const String email = 'Email: ';
-  static const String conactEmail = 'sundaramkumar@live.com';
+  static const String contactEmail = 'xxxxxxx@xxxx.com';
+  static const String linkedIn = 'https://www.linkedin.com/in/sundaramkumar/';
+  static const String gitHub = 'https://github.com/sundaramkumar';
+  static const String twitter = 'https://x.com/sundaramkumar';
+  static const String website = 'https://www.kumarsundaram.com/';
 
   // menu items
   static const String menuHome = 'Home';
@@ -34,13 +38,7 @@ class Strings {
 }
 
 final certifications = ['MCSD', 'PRINCE2', 'AND', 'CEH', 'ECSA', 'CHFI', 'CSM'];
-// 'MCSD - Microsoft Certified Solution Developer (Transcript ID 1163663)',
-// 'PRINCE2 Registered Practitioner',
-// 'AND - Android Certified Application Developer (Android ATC ID: ATC1002891)',
-// 'CEH - EC-Council Certified Ethical Hacker V8',
-// 'ECSA - EC-Council Certified Security Analyst V8',
-// 'CHFI – EC-Council Computer Hacking Forensic Investigator V8',
-// 'CSM - Certified Scrum Master'
+
 final skills = [
   "Angular",
   "PHP",

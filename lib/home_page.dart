@@ -88,8 +88,7 @@ class HomePage extends StatelessWidget {
           style: TextStyles.menuItem,
         ),
         onPressed: () {
-          Utils.getInstance().launchURL('mailto:sundaramkumar@live.com');
-          // html.window.open("mailto:sundaramkumar@live.com", "Email");
+          Utils.getInstance().launchURL('mailto:${Strings.contactEmail}');
         },
       ),
     ];
@@ -276,7 +275,7 @@ class HomePage extends StatelessWidget {
   Widget _buildContactPhone(BuildContext context) {
     return GestureDetector(
         onTap: () {
-          Utils.getInstance().launchURL('tel:+919003013383');
+          Utils.getInstance().launchURL('tel:${Strings.contactPhone}');
         },
         child: RichText(
           text: TextSpan(
@@ -297,7 +296,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               TextSpan(
-                text: Strings.conactPhone,
+                text: Strings.contactPhone,
                 style: TextStyles.body1.copyWith(
                   fontFamily: Fonts.nexaLight,
                   fontSize: 15.0,
@@ -311,7 +310,7 @@ class HomePage extends StatelessWidget {
   Widget _buildContactEmail(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Utils.getInstance().launchURL('mailto:sundaramkumar@live.com');
+        Utils.getInstance().launchURL('mailto:${Strings.contactEmail}');
       },
       child: RichText(
         text: TextSpan(
@@ -331,7 +330,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             TextSpan(
-              text: Strings.conactEmail,
+              text: Strings.contactEmail,
               style: TextStyles.body1.copyWith(
                 fontSize: 15.0,
               ),
@@ -534,7 +533,7 @@ class HomePage extends StatelessWidget {
 Widget _buildCopyRightText(BuildContext context) {
   return GestureDetector(
     onTap: () {
-      Utils.getInstance().launchURL('https://www.kumarsundaram.com/');
+      Utils.getInstance().launchURL(Strings.website);
     },
     child: Text(
       Strings.rightsReserved,
@@ -552,8 +551,7 @@ Widget _buildSocialIcons() {
     children: <Widget>[
       GestureDetector(
         onTap: () {
-          Utils.getInstance()
-              .launchURL('https://www.linkedin.com/in/sundaramkumar/');
+          Utils.getInstance().launchURL(Strings.linkedIn);
         },
         child: Image.network(
           Assets.linkedin,
@@ -565,7 +563,7 @@ Widget _buildSocialIcons() {
       const SizedBox(width: 16.0),
       GestureDetector(
         onTap: () {
-          Utils.getInstance().launchURL('mailto:sundaramkumar@live.com');
+          Utils.getInstance().launchURL('mailto:${Strings.contactEmail}');
         },
         child: Image.network(
           Assets.mail,
@@ -577,7 +575,7 @@ Widget _buildSocialIcons() {
       const SizedBox(width: 16.0),
       GestureDetector(
         onTap: () {
-          Utils.getInstance().launchURL('https://github.com/sundaramkumar');
+          Utils.getInstance().launchURL(Strings.gitHub);
         },
         child: Image.network(
           Assets.github,
@@ -589,7 +587,7 @@ Widget _buildSocialIcons() {
       const SizedBox(width: 16.0),
       GestureDetector(
         onTap: () {
-          Utils.getInstance().launchURL('https://x.com/sundaramkumar');
+          Utils.getInstance().launchURL(Strings.twitter);
         },
         child: Image.network(
           Assets.twitter,

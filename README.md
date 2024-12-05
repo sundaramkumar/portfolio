@@ -1,6 +1,10 @@
 # kumarsundaram_portfolio
 
-A new Flutter project.
+A A Flutter WebApp For my Portfolio.
+
+## Screenshot
+
+![screenshot](assets/images/screenshot.png)
 
 ## Getting Started
 
