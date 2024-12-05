@@ -1,10 +1,14 @@
 # kumarsundaram_portfolio
 
-A A Flutter WebApp For my Portfolio.
+A Flutter WebApp For my Portfolio.
 
 ## Screenshot
 
 ![screenshot](assets/images/screenshot.png)
+
+## TODO
+
+- Add screen resolution support
 
 ## Getting Started
 
