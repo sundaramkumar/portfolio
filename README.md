@@ -12,6 +12,9 @@ A Flutter WebApp For my Portfolio.
 
 flutter build web
 
+This populates a build/web directory with built files, including an assets directory, which need to be served together.
+To learn more about how to deploy these assets to the web, see Build and release a web app https://docs.flutter.dev/deployment/web .
+
 for more details refer here
 https://docs.flutter.dev/platform-integration/web/building
 
