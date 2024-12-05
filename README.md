@@ -6,6 +6,15 @@ A Flutter WebApp For my Portfolio.
 
 ![screenshot](assets/images/screenshot.png)
 
+# Build your app
+
+### Run the following command to generate a release build:
+
+flutter build web
+
+for more details refer here
+https://docs.flutter.dev/platform-integration/web/building
+
 ## TODO
 
 - Add screen resolution support
